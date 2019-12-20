@@ -10,7 +10,9 @@ namespace TestLgtm452
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test LGTM Dotnet Framework 4.5.2");
+            OAuthAccessToken oauth = new OAuthAccessToken();
+            oauth.AccessToken = "Test LGTM Dotnet Framework 4.5.2";
+            Console.WriteLine(oauth.AccessToken);
             Console.ReadLine();
         }
     }
