@@ -1,4 +1,4 @@
-﻿namespace TestLgtm452
+﻿namespace BattleNetLib
 {
     public enum Region
     {
